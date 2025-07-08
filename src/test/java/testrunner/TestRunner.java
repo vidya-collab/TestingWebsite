@@ -6,7 +6,13 @@ import io.cucumber.testng.CucumberOptions;
 
 
 		@CucumberOptions(
-				plugin = {"pretty", "html:target/TestingWebsite.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}, //reporting purpose
+
+				plugin = {"pretty", "html:target/TestingWebsite.html",
+						"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+						"com.aventstack.chaintest.plugins.ChainTestCucumberListener:" }, //reporting purpose
+
+				
+
 				monochrome=false, 
 				tags ="@Login2", 
 				features = {"src/test/resources/features"}, 

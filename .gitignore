@@ -2,3 +2,6 @@ allure-results/
 logs/
 target/
 test-output/
+.classpath/
+.project/
+.settings/

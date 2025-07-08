@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>TestingWebsite</groupId>
-  <artifactId>TestingWebsite</artifactId>
+  <groupId>Chaintset_testing_project</groupId>
+  <artifactId>Chaintset_testing_project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 <dependencies>
 		<!--
@@ -99,6 +99,32 @@
           <artifactId>freemarker</artifactId>
           <version>2.3.33</version>
     </dependency>-->
+
+    
+    <dependency>
+
+  	<groupId>com.aventstack</groupId>
+
+  	<artifactId>chaintest-cucumber-jvm</artifactId>
+
+  	<version>1.0.10</version>
+
+  	<scope>provided</scope>
+
+	</dependency>
+
+
+	<dependency>
+
+      <groupId>org.freemarker</groupId>
+
+      <artifactId>freemarker</artifactId>
+
+      <version>2.3.33</version>
+
+    </dependency>
+    
+
   </dependencies>
 </project>
 
