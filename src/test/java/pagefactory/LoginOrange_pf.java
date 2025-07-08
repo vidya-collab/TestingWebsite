@@ -24,14 +24,11 @@ public class LoginOrange_pf {
 	WebDriver driver= DriverManager.getdriver();
 	ConfigReader configFileReader=DriverManager.configReader();
 
-	
-	
-	//input[@name='username']
-	//input[@name='password']
-	
+
 	//input[@placeholder='Username']
 	//input[@placeholder='Password']
 	//button[@type='submit']
+
 	
 	@FindBy(xpath = "//input[@name='username']") WebElement username;
 	@FindBy(xpath = "//input[@name='password']") WebElement password;
