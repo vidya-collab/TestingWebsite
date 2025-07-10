@@ -73,11 +73,8 @@
 		<dependency>
 
 			<groupId>org.apache.logging.log4j</groupId>
-
 			<artifactId>log4j-core</artifactId>
-
 			<version>2.24.1</version>
-
 		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
@@ -88,7 +85,7 @@
 		</dependency>
 		
 		<!--  This is for chaintest report while using chaintest reports comment extentreports
-   <dependency>
+   		<dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>chaintest-testng</artifactId>
             <version>1.0.1</version>
@@ -101,30 +98,22 @@
     </dependency>-->
 
     
-    <dependency>
-
-  	<groupId>com.aventstack</groupId>
-
-  	<artifactId>chaintest-cucumber-jvm</artifactId>
-
-  	<version>1.0.10</version>
-
-  	<scope>provided</scope>
-
+    <!--These two below dependencies for chaintest reort-->
+    <dependency>     
+	<groupId>com.aventstack</groupId>
+	<artifactId>chaintest-cucumber-jvm</artifactId>
+	<version>1.0.10</version>
+	<scope>provided</scope>
 	</dependency>
-
-
 	<dependency>
 
-      <groupId>org.freemarker</groupId>
-
-      <artifactId>freemarker</artifactId>
-
-      <version>2.3.33</version>
-
-    </dependency>
+      
+    <groupId>org.freemarker</groupId>
+	<artifactId>freemarker</artifactId>
+	<version>2.3.33</version>
+	</dependency>
     
+    </dependencies>
 
-  </dependencies>
 </project>
 
